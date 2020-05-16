@@ -1,4 +1,4 @@
-const number = (num) => {
+function number(num) {
   if (num === null || num === undefined) {
     return 'unknown';
   }
